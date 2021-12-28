@@ -945,7 +945,7 @@
             else
                 containerTop = this.element.offset().top + this.element.outerHeight() - parentOffset.top;
             // this.container[this.drops == 'up' ? 'addClass' : 'removeClass']('dropup');
-            this.container.toggleClass('drop-up', drops == 'up');
+            this.container.toggleClass('dropup', drops == 'up');
 
             if (this.opens == 'left') {
                 this.container.css({
